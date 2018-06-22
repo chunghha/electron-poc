@@ -1,5 +1,5 @@
 {
-  "productName": "angular-electron",
+  "productName": "electron-poc",
   "directories": {
     "output": "app-builds"
   },

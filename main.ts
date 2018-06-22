@@ -19,6 +19,8 @@ function createWindow() {
     height: size.height
   });
 
+  win.maximize();
+
   if (serve) {
     require('electron-reload')(__dirname, {
      electron: require(`${__dirname}/node_modules/electron`)});
@@ -31,7 +33,8 @@ function createWindow() {
     }));
   }
 
-  win.webContents.openDevTools();
+  // Disable even for development.
+  // win.webContents.openDevTools();
 
   // Emitted when the window is closed.
   win.on('closed', () => {
