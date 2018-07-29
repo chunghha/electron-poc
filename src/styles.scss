@@ -5,3 +5,19 @@ html, body {
 
   height: 100%;
 }
+
+$primary-blue: #3f63bf;
+$primary-white: #fefefe;
+
+.ant-card {
+  background: $primary-white !important;
+}
+
+.ant-card-head {
+  background: $primary-blue !important;
+}
+
+.ant-card-head-title {
+  color: $primary-white !important;
+  font-size: 1.25rem !important;
+}
