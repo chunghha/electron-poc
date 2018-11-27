@@ -1,6 +1,6 @@
 <nz-table #ajaxTable nzSize="small"
   nzShowSizeChanger [nzFrontPagination]="true"
-  [nzData]="dataSet" [nzLoading]="loading" [nzTotal]="total"
+  [nzData]="dataSet" [nzTotal]="total"
   [(nzPageIndex)]="pageIndex" [(nzPageSize)]="pageSize"
   (nzPageIndexChange)="searchData()" (nzPageSizeChange)="searchData(true)">
   <thead>

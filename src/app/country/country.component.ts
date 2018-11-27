@@ -26,9 +26,7 @@ export class CountryComponent implements OnInit {
     if (reset) {
       this.pageIndex = 1;
     }
-    this.loading = true;
     this.countryService.getAll().subscribe((data: any) => {
-      this.loading = false;
       this.total = 250;
       this.dataSet = data;
     });
