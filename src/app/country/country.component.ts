@@ -9,7 +9,8 @@ import { CountryDataService } from '../providers/country-data.service';
 export class CountryComponent implements OnInit {
 
   pageIndex = 1;
-  pageSize = 10;
+  pageSize = 15;
+  pageSizeOptions = [15,30,50];
   total = 1;
   dataSet = [];
   loading = true;
