@@ -1,23 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+@import "app/styles/overwrites";
+
 html, body {
   margin: 0;
   padding: 0;
 
   height: 100%;
-}
-
-$primary-blue: #3f63bf;
-$primary-white: #fefefe;
-
-.ant-card {
-  background: $primary-white !important;
-}
-
-.ant-card-head {
-  background: $primary-blue !important;
-}
-
-.ant-card-head-title {
-  color: $primary-white !important;
-  font-size: 1.25rem !important;
 }
