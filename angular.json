@@ -26,7 +26,9 @@
             ],
             "styles": [
               "node_modules/ng-zorro-antd/src/ng-zorro-antd.min.css",
-              "node_modules/typeface-lora/index.css",
+              "node_modules/@fontsource/lora/index.css",
+              "node_modules/@fontsource/lora/500.css",
+              "node_modules/@fontsource/lora/700.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -42,7 +44,6 @@
               "optimization": false,
               "outputHashing": "all",
               "sourceMap": true,
-              "extractCss": true,
               "namedChunks": false,
               "aot": false,
               "extractLicenses": true,
@@ -65,7 +66,6 @@
               "optimization": true,
               "outputHashing": "all",
               "sourceMap": false,
-              "extractCss": true,
               "namedChunks": false,
               "aot": true,
               "extractLicenses": true,
